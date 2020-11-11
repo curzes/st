@@ -1,0 +1,26 @@
+# st - simple terminal
+
+st is a simple terminal emulator for X which sucks less.
+
+### Installation
+
+```sh
+$ git clone https://github.com/curzes/st.git
+$ cd st
+$ make clean
+$ make
+$ sudo make install
+```
+### Patched
+
+For instructions on how to submit and format patches, take a look at the [hacking guidelines](https://suckless.org/hacking/).
+
+| Patch | URL |
+| ------ | ------ |
+| bold is not bright | https://st.suckless.org/patches/bold-is-not-bright/ |
+| clipboard | https://st.suckless.org/patches/clipboard/ |
+| scrollback | https://st.suckless.org/patches/scrollback/ |
+| scrollback-mouse | https://st.suckless.org/patches/scrollback/ |
+| scrollback-mouse-altscreen | https://st.suckless.org/patches/scrollback/ |
+| selectioncolors | https://st.suckless.org/patches/selectioncolors/ |
+| vertcenter | https://st.suckless.org/patches/vertcenter/ |
