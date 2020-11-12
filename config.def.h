@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "ohsnap7x14r:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -95,31 +95,31 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+    /* 8 normal colors */
+    "#222222", /*  BLK */
+    "#444444", /*  RED */
+    "#555555", /*  GRE */
+    "#666666", /*  YEL */
+    "#777777", /*  BLU */
+    "#888888", /*  MAG */
+    "#999999", /*  CYA */
+    "#D3D3D3", /*  WHI */
+    "#1D1D1D", /* _BLK */
+    "#3D3D3D", /* _RED */
+    "#494949", /* _GRE */
+    "#585858", /* _YEL */
+    "#676767", /* _BLU */
+    "#757575", /* _MAG */
+    "#848484", /* _CYA */
+    "#B6B6B6", /* _WHI */
 
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+    [255] = 0,
 
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#2e3440",
+    /* more colors can be added after 255 to
+    * use with DefaultXX */
+    "#030303", /* Background */
+    "#FFFFFF", /* Foreground */
+    "#FFFFFF", /* Cursor */
 };
 
 
@@ -127,14 +127,14 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 256;
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+static unsigned int defaultcs = 258;
+static unsigned int defaultrcs = 258;
 
 /* Colors used for selection */
 unsigned int selectionbg = 257;
-unsigned int selectionfg = 7;
+unsigned int selectionfg = 256;
 /* If 0 use selectionfg as foreground in order to have a uniform foreground-color */
 /* Else if 1 keep original foreground-color of each cell => more colors :) */
 static int ignoreselfg = 1;
