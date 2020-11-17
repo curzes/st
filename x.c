@@ -1032,11 +1032,12 @@ xunloadfont(Font *f)
 	if (f->set)
 		FcFontSetDestroy(f->set);
 }
-
+/*
 int tisaltscr(void)
 {
 	return IS_SET(MODE_ALTSCREEN);
 }
+*/
 
 void
 xunloadfonts(void)
