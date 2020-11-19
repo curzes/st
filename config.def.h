@@ -93,6 +93,9 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.99;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
@@ -139,7 +142,7 @@ unsigned int selectionbg = 259;
 unsigned int selectionfg = 260;
 /* If 0 use selectionfg as foreground in order to have a uniform foreground-color */
 /* Else if 1 keep original foreground-color of each cell => more colors :) */
-static int ignoreselfg = 0;
+static int ignoreselfg = 1;
 
 /*
  * Default shape of cursor
