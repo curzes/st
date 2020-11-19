@@ -20,3 +20,10 @@ st-scrollback-20200419-72e3f6c.diff
 st-scrollback-mouse-20191024-a2c479c.diff
 st-selectioncolors-0.8.4.diff
 st-vertcenter-20180320-6ac8c8a.diff
+
+### Colors
+Black
+Pink
+Orange
+Green
+Gray
