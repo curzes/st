@@ -99,30 +99,30 @@ float alpha = 0.99;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    "#222222", /*  BLK */
-    "#444444", /*  RED */
-    "#555555", /*  GRE */
-    "#666666", /*  YEL */
-    "#777777", /*  BLU */
-    "#888888", /*  MAG */
-    "#999999", /*  CYA */
-    "#D3D3D3", /*  WHI */
-    "#1D1D1D", /* _BLK */
-    "#3D3D3D", /* _RED */
-    "#494949", /* _GRE */
-    "#585858", /* _YEL */
-    "#676767", /* _BLU */
-    "#757575", /* _MAG */
-    "#848484", /* _CYA */
-    "#B6B6B6", /* _WHI */
+    "#4C4C4C", /*  BLK */
+    "#E65C73", /*  RED */
+    "#C5CCA3", /*  GRE */
+    "#B8CCA3", /*  YEL */
+    "#CC7AB1", /*  BLU */
+    "#E673AC", /*  MAG */
+    "#CCA3B1", /*  CYA */
+    "#F2C2CA", /*  WHI */
+    "#333333", /* _BLK */
+    "#FF6680", /* _RED */
+    "#C7E6B8", /* _GRE */
+    "#BBCC9A", /* _YEL */
+    "#CC8FCC", /* _BLU */
+    "#CC52A3", /* _MAG */
+    "#CC8FA3", /* _CYA */
+    "#F2E6E8", /* _WHI */
 
     [255] = 0,
 
     /* more colors can be added after 255 to
     * use with DefaultXX */
-    "#030303", /* Background */
-    "#FFFFFF", /* Foreground */
-    "#FFFFFF", /* Cursor */
+    "#242424", /* Background */
+    "#F2C2CA", /* Foreground */
+    "#F2C2CA", /* Cursor */
 	"#6D2C65", /* Pink */
 	"#999999", /* Dark */
 };
