@@ -123,7 +123,7 @@ static const char *colorname[] = {
     "#030303", /* Background */
     "#FFFFFF", /* Foreground */
     "#FFFFFF", /* Cursor */
-	"#6D2C65", /* Pink */
+	"#333333", /* Pink */
 	"#999999", /* Dark */
 };
 
